@@ -24,6 +24,7 @@ body {
   margin: 128px auto;
   border-radius: 10px;
   padding-bottom: 32px;
+  box-shadow: 5px 5px 5px rgb(155, 154, 154);
 }
 
 h1 {
