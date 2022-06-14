@@ -1,0 +1,9 @@
+version: '2.0'
+services:
+  app: 
+    container_name: TodoList
+    restart: always
+    image: reactdocker
+    build: .
+    ports:
+      - "3000:3000"
