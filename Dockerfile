@@ -8,6 +8,8 @@ COPY package*.json ./
 
 RUN npm install
 
+RUN npm install react-icons
+
 COPY . .
 
 EXPOSE 3000
